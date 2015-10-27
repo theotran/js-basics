@@ -1,22 +1,43 @@
 /* Create a `myName` variable and assign it a String value */
 
+var myName = "Theo Tran";
+
+
 /* Create a `person` variable and give it 2 properties,
  * `name`, assign it the same name as before,
  * as well as an `age` (number);
  */
+ var person = {
+ 	name: "Theo Tran",
+ 	age: 24,
+ };
 
 /* Create a function called `greet`,
  * it should take a 1 parameter, `name`
  * and it should print "Hello, my name is {name}"
  */
+ function greet (name) {
+ 	return "Hello, my name is" + person.name;
+ }
+ greet(person.name);
 
 /* Create a variable called `canDrive`,
  * if it should be true if your person object is at least 16 years old
  */
+ function canDrive (age) {
+ 	if (age >= 16) {
+ 		return true;
+ 	} else {
+ 		return false;
+ 	}
+ }
+canDrive(person.age);
 
 /* Create an array called `dataTypes` with atleast 1 of every data type;
  * (there are 6 different data types);
  */
+ var undef = 
+ var dataTypes = [age, null, undef, 21, "I am a string", +^, ]
 
 /* Create a Dog object
  * it should have a `bark` function that makes your dog bark!
