@@ -35,11 +35,7 @@ var myName = "Theo Tran";
  }
 var canDrive = canDrive(person.age);
 
-/* Create an array called `dataTypes` with atleast 1 of every data type;
- * (there are 6 different data types);
- */
- var undef = '';
- var dataTypes = [true, null, undef,  "I am a string", *, dog{}];
+
 
 /* Create a Dog object
  * it should have a `bark` function that makes your dog bark!
@@ -67,6 +63,10 @@ console.log(bark(dog.name));
 
 
 
+/* Create an array called `dataTypes` with atleast 1 of every data type;
+ * (there are 6 different data types);
+ */
 
+ var dataTypes = [true, null, undefined,  "I am a string", 21, dog];
 
 
