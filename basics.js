@@ -55,11 +55,11 @@ var dog = {
 
 function bark (call) {
 	
-		console.log("ruff ruff!!!");
+		return "ruff ruff!!!";
 	
 }
 
-console.log(bark(dog.name));
+
 
 
 
